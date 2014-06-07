@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Board_Controller : MonoBehaviour
 {
-    private float BoardMaximumAngle = 7.2f;     //Board MaxAngle and Speed have been made private so that the values stay consistant among versions.
-    private float BoardMovementSpeed = 0.55f;   //Trial and error was used to determine the best possible to angle and speed. To adjust or optimize, make these variables public and recalibrate 
+    private float BoardMaximumAngle = 7.0f;     //Board MaxAngle and Speed have been made private so that the values stay consistant among gameboard-model versions.
+    private float BoardMovementSpeed = 0.50f;   //Trial and error was used to determine the best possible to angle and speed. To adjust or optimize, make these variables public and recalibrate 
     private float moveHorizontal;               //Stores horizontal input
     private float moveVertical;                 //Stores vertical input
 
@@ -19,7 +19,7 @@ public class Board_Controller : MonoBehaviour
 
         //DEBUG: displays the current value of the following four variables
         Debug.Log("Max Angle : " + BoardMaximumAngle.ToString()
-            + " -- Movent Speed : " + BoardMovementSpeed.ToString()
+            + " -- Movement Speed : " + BoardMovementSpeed.ToString()
             + " -- Input : " + movement.ToString()
             + " -- velocity : " + rigidbody.velocity.ToString());
     }//END FixedUpdate
