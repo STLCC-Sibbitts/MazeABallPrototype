@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{1D62FB58-AFFF-F285-1782-538F45B0D347}</ProjectGuid>
+	<ProjectGuid>{73F3F414-A3F2-C31C-4774-306E1662AE3B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -48,7 +48,6 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Board_Controller.cs" />
      <Compile Include="Assets\Scripts\DEBUG_BroadcastMyPosition.cs" />
-     <Compile Include="Assets\Scripts\DEBUG_Rotate90.cs" />
      <Compile Include="Assets\Scripts\DontGoThroughThings.cs" />
      <Compile Include="Assets\Scripts\Pickup_Rotator.cs" />
      <Compile Include="Assets\Scripts\PlayerCamera.cs" />
